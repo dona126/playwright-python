@@ -17,20 +17,6 @@ practiced on [SauceDemo](https://www.saucedemo.com/).
 - Playwright
 - Pytest
 
-## Project Structure
-playwright-python/
-  tests/
-    test_first.py
-    test_locators.py
-    test_actions.py
-    test_assertions.py
-    etc
-  pages/
-    login_page.py
-    products_page.py
-    etc
-  .gitignore
-  README.md
 
 ## How to Run
 # Create virtual env
