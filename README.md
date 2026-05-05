@@ -1,0 +1,45 @@
+# Playwright Python
+
+## What This Repo Covers
+Playwright test automation using Python and pytest,
+practiced on [SauceDemo](https://www.saucedemo.com/).
+
+## Topics Covered
+- Setup & first browser automation
+- Locators - finding elements (get_by_role, get_by_placeholder, get_by_text)
+- Actions - fill, click, navigate, keyboard
+- Assertions - expect, to_be_visible, to_have_url, to_have_count
+- Page Object Model (POM)
+- Writing reusable page classes (LoginPage, ProductsPage)
+
+## Tech Stack
+- Python 3.12
+- Playwright
+- Pytest
+
+## Project Structure
+playwright-python/
+  tests/
+    test_first.py
+    test_locators.py
+    test_actions.py
+    test_assertions.py
+    etc
+  pages/
+    login_page.py
+    products_page.py
+    etc
+  .gitignore
+  README.md
+
+## How to Run
+# Create virtual env
+python -m venv venv
+venv\Scripts\activate
+
+# Install dependencies
+pip install pytest-playwright
+python -m playwright install chromium
+
+# Run all tests
+pytest tests/ -v --headed
