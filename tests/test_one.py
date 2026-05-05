@@ -1,3 +1,5 @@
+# ✔ With type hint
+
 from playwright.sync_api import Page
 
 def test_browser_opens(page: Page):
@@ -11,8 +13,6 @@ def test_browser_opens(page: Page):
 # assert → test passes only if this is True
 
 # RUN
-
-# # See the result in terminal
 # pytest tests/test_first.py -v --headed
 #-v → see test names
 # -s → see print output
