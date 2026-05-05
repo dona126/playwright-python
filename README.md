@@ -41,5 +41,5 @@ venv\Scripts\activate
 pip install pytest-playwright
 python -m playwright install chromium
 
-# Run all tests
-pytest tests/ -v --headed
+# To Run tests
+pytest tests/filenamee -v --headed
