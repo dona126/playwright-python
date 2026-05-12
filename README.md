@@ -10,7 +10,6 @@ practiced on [SauceDemo](https://www.saucedemo.com/).
 - Actions - fill, click, navigate, keyboard
 - Assertions - expect, to_be_visible, to_have_url, to_have_count
 - Page Object Model (POM)
-- Writing reusable page classes
 
 ## Tech Stack
 - Python 3.12
