@@ -24,6 +24,7 @@ venv\Scripts\activate
 
 # Install dependencies
 pip install pytest-playwright
+
 python -m playwright install chromium
 
 # To Run tests
